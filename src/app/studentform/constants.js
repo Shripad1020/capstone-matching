@@ -9,7 +9,7 @@ export const workAuths  = [
 export const contractSigns = [
 	"Not Willing at All", 
 	"NDA Only", 
-	"IP Onl", 
+	"IP Only", 
 	"Ok with Any Agreements"
 ];
 
