@@ -1,0 +1,13 @@
+version: '3'
+services:
+  db:
+    image: postgres
+    restart: always
+    volumes:
+      - ./database/db:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=capstone-matching
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=password
