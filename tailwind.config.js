@@ -9,6 +9,7 @@ module.exports = {
     extend: {
 		colors: {
 			'label-blue': '#007bff',
+			'code-maroon': '#800000',
 		},
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
