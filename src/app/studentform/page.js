@@ -5,7 +5,7 @@ import Ethnicities from "./Ethnicities";
 
 export default function StudentForm() {
 	return (
-		<div className="flex flex-col items-center justify-center min-h-screen">
+		<div className="flex flex-col items-center min-h-full">
 			<h1 className="mt-8 text-center text-4xl font-medium">CSCE Capstone Project Preference Form</h1>
 			<p className="mt-3 mb-8 text-lg font-normal">Howdy! Let us know which industry projects you are interested in.</p>
 
