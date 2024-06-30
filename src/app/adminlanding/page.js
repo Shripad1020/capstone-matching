@@ -9,8 +9,8 @@ export default function ClientComponent() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
-      <div className="w-11/12 text-center relative">
+    <div className="min-h-screen flex flex-col items-center  bg-gray-100">
+      <div className="w-11/12 text-center relative mt-10">
         <button
           
           className="bg-code-maroon text-white py-2 px-4 rounded absolute left-0"
